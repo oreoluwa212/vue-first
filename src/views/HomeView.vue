@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen h-screen flex flex-col items-center justify-center bg-gray-100 text-[#013C61]">
-    <h1 class="text-[34px] leading-[46px]">Welcome to TinyLabs</h1>
+    <h1 class="text-[34px] leading-[46px]">Welcome to GetChange</h1>
     <p class="text-[18px] leading-[18px]">
       Create your free account and enjoy our services.
     </p>
