@@ -1,9 +1,9 @@
 <template>
-   <div class="text-[#013C61] flex flex-col justify-start gap-4">
+   <div class="text-navy flex flex-col justify-start gap-4">
       <div v-if="currentStep !== 3" class="mb-6">
          <div class="text-[34px] leading-[46px]">Create your free account</div>
          <div class="text-[18px] mt-2 leading-[18px]">
-            Already registered? <span class="text-green-500 cursor-pointer">Sign in</span>
+            Already registered? <span class="text-green cursor-pointer">Sign in</span>
          </div>
       </div>
 

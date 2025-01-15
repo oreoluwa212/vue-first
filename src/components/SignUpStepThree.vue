@@ -8,7 +8,7 @@
 
         <div class="flex justify-center mt-2">
             <button @click="$emit('go-dashboard')"
-                class="bg-green-500 text-white px-8 py-3 text-[18px] rounded-[3px] flex items-center gap-2 ">
+                class="bg-green text-white px-8 py-3 text-[18px] rounded-[3px] flex items-center gap-2 ">
                 Dashboard
                 <span class="material-icons">arrow_forward</span>
             </button>

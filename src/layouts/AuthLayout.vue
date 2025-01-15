@@ -22,7 +22,7 @@
                   >
                      <button 
                         class="size-2.5 rounded-full"
-                        :class="selectedImage === image ? 'bg-green-500' : 'bg-gray-200'"
+                        :class="selectedImage === image ? 'bg-green' : 'bg-gray-200'"
                         @click="selectedImage = image"
                      ></button>
                   </div>
@@ -38,8 +38,8 @@
          <div class="flex items-center justify-between text-gray-700 text-sm font-light">
             <div>
                By signing up, you agree to our
-               <a class="text-green-500 font-semibold">Terms</a> and
-               <a class="text-green-500 font-semibold">Privacy Policy</a>
+               <a class="text-green font-semibold">Terms</a> and
+               <a class="text-green font-semibold">Privacy Policy</a>
             </div>
             <div>© 2019 TinyLabs. All rights reserved.</div>
          </div>

@@ -20,9 +20,9 @@ export default {
   data() {
     return {
       menuItems: [
-        { name: "Dashboard", path: "/", icon: new URL('@/assets/images/home.svg', import.meta.url).href },
+        { name: "Dashboard", path: "/dashboard", icon: new URL('@/assets/images/home.svg', import.meta.url).href },
+        { name: "Employees", path: "/employees", icon: new URL('@/assets/images/employees.svg', import.meta.url).href },
         { name: "Wallet", path: "/wallet", icon: new URL('@/assets/images/wallet.svg', import.meta.url).href },
-        { name: "History", path: "/history", icon: new URL('@/assets/images/history.svg', import.meta.url).href },
       ],
     };
   },

@@ -21,7 +21,7 @@
         </div>
 
         <div class="flex justify-end items-center">
-            <button class="bg-green-500 text-white px-8 py-1.5 text-[18px] leading-[22px] rounded-[3px]"
+            <button class="bg-green text-white px-8 py-1.5 text-[18px] leading-[22px] rounded-[3px]"
                 @click="$emit('next-step')">
                 {{ buttonText }}
             </button>
